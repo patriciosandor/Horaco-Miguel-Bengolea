@@ -1,0 +1,56 @@
+.header__nav {
+  background-color: transparent;
+  box-shadow: none;
+  position: absolute;
+}
+
+.header__nav__div {
+  box-shadow: none;
+}
+
+.header__nav__div__logo img {
+  height: 20rem;
+  margin-top: 2rem;
+  margin-left: 5rem;
+}
+
+.header__nav__div__ul {
+  margin-top: 5rem;
+  margin-right: 2rem;
+}
+
+.header__nav__div__ul li a {
+  font-size: 2.5rem;
+  color: white;
+}
+
+.section {
+  padding: 0rem;
+}
+
+.section__imagen__imagenFondo {
+  height: 90vh;
+  background-image: url(../img/imagenIndex.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0, 0, 20rem,0;
+  position: relative;
+  z-index: -50;
+}
+
+.section__resto {
+  height: 100rem;
+  background-color: blue;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}

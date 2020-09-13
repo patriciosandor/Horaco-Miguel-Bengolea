@@ -1,0 +1,18 @@
+.section{
+    padding: 0rem;
+    &__imagen{
+        &__imagenFondo{
+            height: 90vh;
+            background-image: url(../img/imagenIndex.jpeg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: 0, 0, 20rem,0;
+            position: relative;
+            z-index: -50;
+        }
+    }
+    &__resto{
+        height: 100rem;
+        background-color: blue;
+    }
+}

@@ -1,0 +1,28 @@
+.header{
+    &__nav{
+        background-color: transparent;
+        box-shadow: none;
+        position: absolute;
+        
+        &__div{
+            box-shadow: none;
+            &__logo{
+                img{
+                    height: 20rem;
+                    margin-top: 2rem;
+                    margin-left: 5rem;
+                }    
+            }
+            &__ul{
+                margin-top: 5rem;
+                margin-right: 2rem;
+                li{
+                    a{
+                        font-size: 2.5rem;
+                        color: white;
+                    }                  
+                }
+            }
+        }
+    }
+}
