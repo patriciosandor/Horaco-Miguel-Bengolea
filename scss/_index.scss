@@ -11,8 +11,37 @@
             z-index: -50;
         }
     }
-    &__resto{
+    &__producto{
         height: 100rem;
         background-color: blue;
+        &__h2{
+            margin: 0rem;
+            padding-top: 4rem;
+            text-align: center;
+        }
+        &__grilla{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1.3fr 1.2fr;
+            grid-template-rows: 1.7fr 1.1fr 1.7fr;
+            gap: 10px 10px;
+            grid-template-areas:
+                "foto1 foto1 foto3 foto3"
+                "foto2 foto2 foto3 foto3"
+                "foto2 foto2 foto4 foto4";
+
+            &__foto1{
+                grid-area: foto1;
+            }
+            &__foto2{
+                grid-area: foto2;
+            }
+
+            &__foto3{
+                grid-area: foto3;
+            }
+            &__foto4{
+                grid-area: foto4;
+            }
+        }
     }
 }
